@@ -226,7 +226,18 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n// import React, { useEffect } from \"react\";\n// export function App() {\n//   return <div>React Rox</div>;\n// }\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"] {\n  render() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null, \"React component rendering\");\n  }\n\n}\n\n//# sourceURL=webpack:///./src/app.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _large_tile_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./large-tile.jsx */ \"./src/large-tile.jsx\");\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n\n\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"] {\n  render() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null, _data_json__WEBPACK_IMPORTED_MODULE_2__.largeTiles.map(tile => {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](_large_tile_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        name: tile.name,\n        site: tile.site,\n        total: tile.total,\n        change: tile.change\n      });\n    }));\n  }\n\n}\n\n//# sourceURL=webpack:///./src/app.jsx?");
+
+/***/ }),
+
+/***/ "./src/data.json":
+/*!***********************!*\
+  !*** ./src/data.json ***!
+  \***********************/
+/*! exports provided: largeTiles, smallTiles, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"largeTiles\\\":[{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"facebook\\\",\\\"total\\\":1987,\\\"change\\\":12},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"twitter\\\",\\\"total\\\":1044,\\\"change\\\":99},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"instagram\\\",\\\"total\\\":11000,\\\"change\\\":1099},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"youtube\\\",\\\"total\\\":8239,\\\"change\\\":-144}],\\\"smallTiles\\\":[{\\\"facebook\\\":{\\\"pageViews\\\":{\\\"total\\\":87,\\\"percent\\\":3},\\\"likes\\\":{\\\"total\\\":52,\\\"percent\\\":-2}}},{\\\"instagram\\\":{\\\"pageViews\\\":{\\\"total\\\":52000,\\\"percent\\\":1375},\\\"likes\\\":{\\\"total\\\":5462,\\\"percent\\\":2257}}},{\\\"twitter\\\":{\\\"pageViews\\\":{\\\"total\\\":117,\\\"percent\\\":303},\\\"likes\\\":{\\\"total\\\":507,\\\"percent\\\":-553}}},{\\\"youtube\\\":{\\\"pageViews\\\":{\\\"total\\\":107,\\\"percent\\\":-19},\\\"likes\\\":{\\\"total\\\":1407,\\\"percent\\\":-12}}}]}\");\n\n//# sourceURL=webpack:///./src/data.json?");
 
 /***/ }),
 
@@ -239,6 +250,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _app_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.jsx */ \"./src/app.jsx\");\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_0___default.a.render( /*#__PURE__*/React.createElement(_app_jsx__WEBPACK_IMPORTED_MODULE_1__[\"App\"], null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/large-tile.jsx":
+/*!****************************!*\
+  !*** ./src/large-tile.jsx ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return largeTile; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n // props: {\n//  name: string\n//  site: string, 4 social media sites...\n//  total: number (>= 0)\n//  change: number, (<= or >= than 0)\n// }\n\nfunction largeTile(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"large-tile\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"icon-and-handle-container\"\n  }, props.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"num-followers-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"followers-number\"\n  }, props.total), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"followers-text\"\n  }, \"FOLLOWERS\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'change-in-followers-container' + props.change < 0 ? 'red' : 'green'\n  }, props.change < 0 ? '&#9660' : '&#9650', \" \", props.change, \" Today\"));\n}\n\n//# sourceURL=webpack:///./src/large-tile.jsx?");
 
 /***/ })
 

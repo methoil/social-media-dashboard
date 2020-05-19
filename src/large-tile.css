@@ -1,0 +1,39 @@
+.large-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top: 5px;
+  color: blue; /* need to set this based on the icon type */
+}
+
+.icon-and-handle-container {
+
+}
+
+
+.num-followers-container {
+
+}
+
+.change-in-followers-container {
+  
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+
+.followers-number {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.followers-text{
+  font-style: monospace;
+}
+
