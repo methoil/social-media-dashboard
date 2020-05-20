@@ -1,22 +1,48 @@
 .large-tile {
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border-top: 5px;
-  color: blue; /* need to set this based on the icon type */
+  align-items: center;
+  border-top: solid 5px blue;
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .icon-and-handle-container {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 85px
 }
 
+.handle-text {
+  font-size: .9em;
+  color: hsl(228, 34%, 66%);
+}
 
 .num-followers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.followers-number {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.followers-static-text {
+  color: hsl(228, 34%, 66%);
 }
 
 .change-in-followers-container {
-  
+  font-family: inter; /*TODO: make this work*/
+  font-size: .75em;
+
 }
 
 .red {
@@ -26,14 +52,3 @@
 .green {
   color: green;
 }
-
-
-.followers-number {
-  font-weight: bold;
-  font-size: 2em;
-}
-
-.followers-text{
-  font-style: monospace;
-}
-

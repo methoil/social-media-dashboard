@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'inter';
+  src: 'static/Iner/Inter-VariableFont_slnt,wght.ttf';
+  font-weight: 400, 700;
+  font-stretch: 75% 125%;
+  font-style: normal;
+ }
+
+.facebook-border {border-color: hsl(195, 100%, 50%);}
+.twitter-border {border-color: hsl(203, 89%, 53%);}
+.instagram-border {border-color:  hsl(329, 70%, 58%);} /*TODO: gradient borders?????*/
+.youtube-border {border-color: hsl(348, 97%, 39%);}
