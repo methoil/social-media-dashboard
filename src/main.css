@@ -10,3 +10,7 @@
 .twitter-border {border-color: hsl(203, 89%, 53%);}
 .instagram-border {border-color:  hsl(329, 70%, 58%);} /*TODO: gradient borders?????*/
 .youtube-border {border-color: hsl(348, 97%, 39%);}
+
+.dark-mode-text-color {
+  color: hsl(228, 34%, 66%);
+}

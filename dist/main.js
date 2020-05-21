@@ -86,14 +86,25 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/large-tile.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/large-tile.css ***!
-  \******************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/app.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/app.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".large-tile {\\n  height: 200px;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: space-around;\\n  align-items: center;\\n  border-top: solid 5px blue;\\n  background-color: hsl(228, 28%, 20%);\\n  border-radius: 5px;\\n  margin: 10px;\\n}\\n\\n.icon-and-handle-container {\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  \\n  width: 85px\\n}\\n\\n.handle-text {\\n  font-size: .9em;\\n  color: hsl(228, 34%, 66%);\\n}\\n\\n.num-followers-container {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.followers-number {\\n  color: white;\\n  font-size: 2em;\\n  font-weight: bold;\\n}\\n\\n.followers-static-text {\\n  color: hsl(228, 34%, 66%);\\n}\\n\\n.change-in-followers-container {\\n  font-family: inter; /*TODO: make this work*/\\n  font-size: .75em;\\n\\n}\\n\\n.red {\\n  color: red;\\n}\\n\\n.green {\\n  color: green;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/large-tile.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_modules/css-loader/dist/cjs.js!./main.css */ \"./node_modules/css-loader/dist/cjs.js!./src/main.css\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\n// Module\nexports.push([module.i, \".main-container {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.main-title {\\n  font-size: 3rem;\\n}\\n\\n.horizontal-line {\\n  border-top: solid gray 2px;\\n  width: 95vw;\\n}\\n\\n.dark-mode-container {\\n  width: 95vw;\\n  margin: 25px;\\n}\\n\\n.toggle-button {\\n  display: inline-block;\\n  width: 100px;\\n  height: 25px;\\n  border-radius: 15px;\\n  background: linear-gradient(blue, green);\\n  float: right;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/app.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/large-tile/large-tile.css":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/large-tile/large-tile.css ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".large-tile {\\n  height: 200px;\\n  width: 95vw;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: space-around;\\n  align-items: center;\\n  border-top: solid 5px blue;\\n  background-color: hsl(228, 28%, 20%);\\n  border-radius: 5px;\\n  margin: 10px;\\n}\\n\\n.icon-and-handle-container {\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  \\n  width: 85px\\n}\\n\\n.handle-text {\\n  font-size: .9em;\\n  color: hsl(228, 34%, 66%);\\n}\\n\\n.num-followers-container {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\n.followers-number {\\n  color: white;\\n  font-size: 2em;\\n  font-weight: bold;\\n}\\n\\n.followers-static-text {\\n  color: hsl(228, 34%, 66%);\\n}\\n\\n.change-in-followers-container {\\n  font-family: inter; /*TODO: make this work*/\\n  font-size: .75em;\\n\\n}\\n\\n.red {\\n  color: red;\\n}\\n\\n.green {\\n  color: green;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/large-tile/large-tile.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -104,7 +115,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'inter';\\n  src: 'static/Iner/Inter-VariableFont_slnt,wght.ttf';\\n  font-weight: 400, 700;\\n  font-stretch: 75% 125%;\\n  font-style: normal;\\n }\\n\\n.facebook-border {border-color: hsl(195, 100%, 50%);}\\n.twitter-border {border-color: hsl(203, 89%, 53%);}\\n.instagram-border {border-color:  hsl(329, 70%, 58%);} /*TODO: gradient borders?????*/\\n.youtube-border {border-color: hsl(348, 97%, 39%);}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/main.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'inter';\\n  src: 'static/Iner/Inter-VariableFont_slnt,wght.ttf';\\n  font-weight: 400, 700;\\n  font-stretch: 75% 125%;\\n  font-style: normal;\\n }\\n\\n.facebook-border {border-color: hsl(195, 100%, 50%);}\\n.twitter-border {border-color: hsl(203, 89%, 53%);}\\n.instagram-border {border-color:  hsl(329, 70%, 58%);} /*TODO: gradient borders?????*/\\n.youtube-border {border-color: hsl(348, 97%, 39%);}\\n\\n.dark-mode-text-color {\\n  color: hsl(228, 34%, 66%);\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/main.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -264,6 +275,17 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/app.css":
+/*!*********************!*\
+  !*** ./src/app.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./app.css */ \"./node_modules/css-loader/dist/cjs.js!./src/app.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/app.css?");
+
+/***/ }),
+
 /***/ "./src/app.jsx":
 /*!*********************!*\
   !*** ./src/app.jsx ***!
@@ -272,7 +294,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _large_tile_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./large-tile.jsx */ \"./src/large-tile.jsx\");\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n\n\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"] {\n  render() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null, _data_json__WEBPACK_IMPORTED_MODULE_2__.largeTiles.map(tile => {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](_large_tile_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        name: tile.name,\n        site: tile.site,\n        total: tile.total,\n        change: tile.change\n      });\n    }));\n  }\n\n}\n\n//# sourceURL=webpack:///./src/app.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"App\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _large_tile_large_tile_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./large-tile/large-tile.jsx */ \"./src/large-tile/large-tile.jsx\");\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\nvar _data_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ \"./src/data.json\", 1);\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.css */ \"./src/app.css\");\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"] {\n  render() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", {\n      className: \"main-container\"\n    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", {\n      class: \"main-title\"\n    }, \"Social Media Dashboard\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", {\n      className: \"dark-mode-text-color\"\n    }, \"Total Followers: 23,004\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", {\n      className: \"horizontal-line\"\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", {\n      className: \"dark-mode-container\"\n    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"span\", {\n      className: \"dark-mode-text-color\"\n    }, \"Dark Mode\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"span\", {\n      className: \"toggle-button\"\n    })), _data_json__WEBPACK_IMPORTED_MODULE_2__.largeTiles.map(tile => {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](_large_tile_large_tile_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        name: tile.name,\n        site: tile.site,\n        total: tile.total,\n        change: tile.change\n      });\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null, \"Overview - Today\"), _data_json__WEBPACK_IMPORTED_MODULE_2__.smallTiles.map(tile => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null, tile.site, \" : \", tile.pageViews.total, \" \")));\n  }\n\n}\n\n//# sourceURL=webpack:///./src/app.jsx?");
 
 /***/ }),
 
@@ -283,7 +305,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*! exports provided: largeTiles, smallTiles, default */
 /***/ (function(module) {
 
-eval("module.exports = JSON.parse(\"{\\\"largeTiles\\\":[{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"facebook\\\",\\\"total\\\":1987,\\\"change\\\":12},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"twitter\\\",\\\"total\\\":1044,\\\"change\\\":99},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"instagram\\\",\\\"total\\\":11000,\\\"change\\\":1099},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"youtube\\\",\\\"total\\\":8239,\\\"change\\\":-144}],\\\"smallTiles\\\":[{\\\"facebook\\\":{\\\"pageViews\\\":{\\\"total\\\":87,\\\"percent\\\":3},\\\"likes\\\":{\\\"total\\\":52,\\\"percent\\\":-2}}},{\\\"instagram\\\":{\\\"pageViews\\\":{\\\"total\\\":52000,\\\"percent\\\":1375},\\\"likes\\\":{\\\"total\\\":5462,\\\"percent\\\":2257}}},{\\\"twitter\\\":{\\\"pageViews\\\":{\\\"total\\\":117,\\\"percent\\\":303},\\\"likes\\\":{\\\"total\\\":507,\\\"percent\\\":-553}}},{\\\"youtube\\\":{\\\"pageViews\\\":{\\\"total\\\":107,\\\"percent\\\":-19},\\\"likes\\\":{\\\"total\\\":1407,\\\"percent\\\":-12}}}]}\");\n\n//# sourceURL=webpack:///./src/data.json?");
+eval("module.exports = JSON.parse(\"{\\\"largeTiles\\\":[{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"facebook\\\",\\\"total\\\":1987,\\\"change\\\":12},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"twitter\\\",\\\"total\\\":1044,\\\"change\\\":99},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"instagram\\\",\\\"total\\\":11000,\\\"change\\\":1099},{\\\"name\\\":\\\"@nathanf\\\",\\\"site\\\":\\\"youtube\\\",\\\"total\\\":8239,\\\"change\\\":-144}],\\\"smallTiles\\\":[{\\\"site\\\":\\\"facebook\\\",\\\"pageViews\\\":{\\\"total\\\":87,\\\"percent\\\":3},\\\"likes\\\":{\\\"total\\\":52,\\\"percent\\\":-2}},{\\\"site\\\":\\\"instagram\\\",\\\"pageViews\\\":{\\\"total\\\":52000,\\\"percent\\\":1375},\\\"likes\\\":{\\\"total\\\":5462,\\\"percent\\\":2257}},{\\\"site\\\":\\\"twitter\\\",\\\"pageViews\\\":{\\\"total\\\":117,\\\"percent\\\":303},\\\"likes\\\":{\\\"total\\\":507,\\\"percent\\\":-553}},{\\\"site\\\":\\\"youtube\\\",\\\"pageViews\\\":{\\\"total\\\":107,\\\"percent\\\":-19},\\\"likes\\\":{\\\"total\\\":1407,\\\"percent\\\":-12}}]}\");\n\n//# sourceURL=webpack:///./src/data.json?");
 
 /***/ }),
 
@@ -299,26 +321,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./src/large-tile.css":
-/*!****************************!*\
-  !*** ./src/large-tile.css ***!
-  \****************************/
+/***/ "./src/large-tile/large-tile.css":
+/*!***************************************!*\
+  !*** ./src/large-tile/large-tile.css ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./large-tile.css */ \"./node_modules/css-loader/dist/cjs.js!./src/large-tile.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/large-tile.css?");
+eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./large-tile.css */ \"./node_modules/css-loader/dist/cjs.js!./src/large-tile/large-tile.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/large-tile/large-tile.css?");
 
 /***/ }),
 
-/***/ "./src/large-tile.jsx":
-/*!****************************!*\
-  !*** ./src/large-tile.jsx ***!
-  \****************************/
+/***/ "./src/large-tile/large-tile.jsx":
+/*!***************************************!*\
+  !*** ./src/large-tile/large-tile.jsx ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return largeTile; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _large_tile_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./large-tile.css */ \"./src/large-tile.css\");\n/* harmony import */ var _large_tile_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_large_tile_css__WEBPACK_IMPORTED_MODULE_1__);\n\n // props: {\n//  name: string\n//  site: string, 4 social media sites...\n//  total: number (>= 0)\n//  change: number, (<= or >= than 0)\n// }\n\nfunction largeTile(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: `large-tile ${props.site}-border`\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"icon-and-handle-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: `../social-media-dashboard/static/images/icon-${props.site}.svg`\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"handle-text\"\n  }, props.name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"num-followers-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"followers-number\"\n  }, props.total), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"followers-static-text\"\n  }, \"FOLLOWERS\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'change-in-followers-container ' + (props.change < 0 ? 'red' : 'green')\n  }, props.change >= 0 ? '/\\\\' : '\\\\/', \" \", props.change, \" Today\"));\n\n  function getIconPath() {}\n}\n\n//# sourceURL=webpack:///./src/large-tile.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return largeTile; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _large_tile_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./large-tile.css */ \"./src/large-tile/large-tile.css\");\n/* harmony import */ var _large_tile_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_large_tile_css__WEBPACK_IMPORTED_MODULE_1__);\n\n // props: {\n//  name: string\n//  site: string, 4 social media sites...\n//  total: number (>= 0)\n//  change: number, (<= or >= than 0)\n// }\n\nfunction largeTile(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: `large-tile ${props.site}-border`\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"icon-and-handle-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: `../social-media-dashboard/static/images/icon-${props.site}.svg`\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"handle-text\"\n  }, props.name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"num-followers-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"followers-number\"\n  }, props.total), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"followers-static-text\"\n  }, \"FOLLOWERS\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'change-in-followers-container ' + (props.change < 0 ? 'red' : 'green')\n  }, props.change >= 0 ? '/\\\\' : '\\\\/', \" \", props.change, \" Today\"));\n\n  function getIconPath() {}\n}\n\n//# sourceURL=webpack:///./src/large-tile/large-tile.jsx?");
 
 /***/ }),
 

@@ -27,51 +27,47 @@
   ],
   "smallTiles": [
     {
-      "facebook": {
-        "pageViews": {
-          "total": 87,
-          "percent": 3
-        },
-        "likes": {
-          "total": 52,
-          "percent": -2
-        }
+      "site": "facebook",
+      "pageViews": {
+        "total": 87,
+        "percent": 3
+      },
+      "likes": {
+        "total": 52,
+        "percent": -2
       }
     },
     {
-      "instagram": {
-        "pageViews": {
-          "total": 52000,
-          "percent": 1375
-        },
-        "likes": {
-          "total": 5462,
-          "percent": 2257
-        }
+      "site": "instagram",
+      "pageViews": {
+        "total": 52000,
+        "percent": 1375
+      },
+      "likes": {
+        "total": 5462,
+        "percent": 2257
       }
     },
     {
-      "twitter": {
-        "pageViews": {
-          "total": 117,
-          "percent": 303
-        },
-        "likes": {
-          "total": 507,
-          "percent": -553
-        }
+      "site": "twitter",
+      "pageViews": {
+        "total": 117,
+        "percent": 303
+      },
+      "likes": {
+        "total": 507,
+        "percent": -553
       }
     },
     {
-      "youtube": {
-        "pageViews": {
-          "total": 107,
-          "percent": -19
-        },
-        "likes": {
-          "total": 1407,
-          "percent": -12
-        }
+      "site": "youtube",
+      "pageViews": {
+        "total": 107,
+        "percent": -19
+      },
+      "likes": {
+        "total": 1407,
+        "percent": -12
       }
     }
   ]

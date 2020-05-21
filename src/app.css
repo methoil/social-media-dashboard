@@ -1,0 +1,30 @@
+@import './main.css';
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 3rem;
+}
+
+.horizontal-line {
+  border-top: solid gray 2px;
+  width: 95vw;
+}
+
+.dark-mode-container {
+  width: 95vw;
+  margin: 25px;
+}
+
+.toggle-button {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  background: linear-gradient(blue, green);
+  float: right;
+}
