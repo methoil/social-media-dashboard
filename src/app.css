@@ -1,13 +1,20 @@
 @import './main.css';
 
+body {
+  background-color: hsl(230, 17%, 14%);
+  font-family: sans-serif;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main-title {
-  font-size: 3rem;
+.dark-mode-title {
+  font-size: 2rem;
+  color: white;
+
 }
 
 .horizontal-line {

@@ -10,8 +10,6 @@ import largeTileCss from './large-tile.css';
 // }
 
 export default function largeTile(props) {
-
-
   return (
     <div className={`large-tile ${props.site}-border`}>
       <div className="icon-and-handle-container">
@@ -29,9 +27,5 @@ export default function largeTile(props) {
       </div>
     </div>
   )
-
-  function getIconPath() {
-
-  }
 }
 

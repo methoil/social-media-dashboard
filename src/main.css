@@ -14,3 +14,7 @@
 .dark-mode-text-color {
   color: hsl(228, 34%, 66%);
 }
+
+.white-text {
+  color: white;
+}
