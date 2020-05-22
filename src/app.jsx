@@ -1,5 +1,6 @@
 import * as React from "react";
 import LargeTile from './components/large-tile.jsx';
+import SmallTile from './components/small-tile.jsx';
 import data from './data.json';
 import './app.css';
 
@@ -23,7 +24,12 @@ export class App extends React.Component {
 
         <div className="dark-mode-title">Overview - Today</div>
 
-        {data.smallTiles.map((tile) => <div>{tile.site} : {tile.pageViews.total} </div>)}
+        {data.smallTiles.map((tile) => {
+          return (<span>
+            <SmallTile site={tile.site} meta={tile.actions} ></SmallTile>
+            <SmallTile site={tile.site} meta={tile.likes} ></SmallTile>
+          </span>)
+        })}
       </div>
     );
   }

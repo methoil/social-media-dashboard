@@ -1,5 +1,5 @@
 import React from 'react';
-import largeTileCss from './large-tile.css';
+import './tile.css';
 
 
 // props: {
@@ -11,7 +11,7 @@ import largeTileCss from './large-tile.css';
 
 export default function largeTile(props) {
   return (
-    <div className={`large-tile ${props.site}-border`}>
+    <div className={`tile large-tile ${props.site}-border`}>
       <div className="icon-and-handle-container">
         <img src={`../social-media-dashboard/static/images/icon-${props.site}.svg`} />
         <span className="handle-text">{props.name}</span>

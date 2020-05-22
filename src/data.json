@@ -28,44 +28,52 @@
   "smallTiles": [
     {
       "site": "facebook",
-      "pageViews": {
+      "actions": {
+        "label": "Page Views",
         "total": 87,
         "percent": 3
       },
       "likes": {
+        "label": "Likes",
         "total": 52,
         "percent": -2
       }
     },
     {
       "site": "instagram",
-      "pageViews": {
+      "actions": {
+        "label": "Profile Views",
         "total": 52000,
         "percent": 1375
       },
       "likes": {
+        "label": "Likes",
         "total": 5462,
         "percent": 2257
       }
     },
     {
       "site": "twitter",
-      "pageViews": {
+      "actions": {
+        "label": "Retweets",
         "total": 117,
         "percent": 303
       },
       "likes": {
+        "label": "Likes",
         "total": 507,
         "percent": -553
       }
     },
     {
       "site": "youtube",
-      "pageViews": {
+      "actions": {
+        "label": "Total Views",
         "total": 107,
         "percent": -19
       },
       "likes": {
+        "label": "Likes",
         "total": 1407,
         "percent": -12
       }
