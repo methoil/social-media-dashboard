@@ -1,36 +1,38 @@
 @import './main.css';
 
 body {
+  margin: 0px;
   font-family: sans-serif;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.main-container.dark-mode{
-  background-color: hsl(0, 0%, 100%);
-}
-.main-container.light-mode{
+  align-items: baseline;
   background-color: hsl(230, 17%, 14%);
-
+  padding: 15px;
+}
+.main-container.light-mode {
+  background-color: hsl(0, 0%, 100%);
 }
 
 .horizontal-line {
   border-top: solid gray 2px;
   width: 95vw;
+  margin: 10px 0 10px 0;
 }
 
-.dark-mode-container {
+.toggle-mode-container {
   position: relative;
   height: 25px;
   width: 95vw;
-  margin: 25px;
 }
 
-.dark-mode-title {
+.title {
   position: relative;
   font-size: 2rem;
-  color: white;
+}
+
+.mode-label {
+  text-transform: capitalize;
 }

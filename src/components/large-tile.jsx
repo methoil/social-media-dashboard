@@ -10,17 +10,18 @@ import './tile.css';
 // }
 
 export default function largeTile(props) {
+  let mode = props.mode;
   return (
-    <div className={`tile large-tile ${props.site}-border`}>
+    <div className={`tile large-tile ${props.site}-border ${mode}-mode`}>
       <div className="icon-and-handle-container">
         <img src={`../social-media-dashboard/static/images/icon-${props.site}.svg`} />
-        <span className="handle-text">{props.name}</span>
+        <span className={`handle-text ${mode}-mode`}>{props.name}</span>
       </div>
       <div className="num-followers-container">
-        <div className="followers-number">
+        <div className={`followers-number ${mode}-mode-text-2`}>
           {props.total}
         </div>
-        <div className="followers-static-text">FOLLOWERS</div>
+        <div className={`${mode}-mode-text`}>FOLLOWERS</div>
       </div>
       <div className={'change-in-followers-container ' + (props.change < 0 ? 'red' : 'green')}>
         {props.change >= 0 ? '/\\' : '\\/'} {props.change} Today

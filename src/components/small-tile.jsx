@@ -2,12 +2,11 @@ import React from 'react';
 import './tile.css';
 
 export default function smallTile(props) {
-
-  return (<div className="tile small-tile">
-
+  let mode = props.mode;
+  return (<div className={`tile small-tile ${mode}-mode`}>
     <div className="small-tile-section">
       <div className="handle-text">{props.meta.label}</div>
-      <div className="small-tile-total-num">{props.meta.total}</div>
+      <div className={`small-tile-total-num ${mode}-mode-text-2`}>{props.meta.total}</div>
     </div>
 
     <div className="small-tile-section">

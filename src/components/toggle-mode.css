@@ -8,6 +8,13 @@
   float: right;
   background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
+.toggle-mode-switch.light-mode {
+  background: hsl(230, 22%, 74%);
+}
+
+.toggle-mode-switch:hover {
+  cursor: pointer;
+}
 
 .toggle-mode-circle {
   position: absolute;
@@ -15,7 +22,10 @@
   height: 18px;
   width: 18px;
   bottom: 4px;
-  background-color: white;
+  background-color: hsl(232, 19%, 15%);
+}
+.toggle-mode-circle.light-mode {
+  background-color: hsl(225, 100%, 98%);
 }
 
 .toggle-mode-circle.left {

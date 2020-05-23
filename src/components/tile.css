@@ -4,7 +4,11 @@
   align-items: center;
   background-color: hsl(228, 28%, 20%);
   border-radius: 5px;
-  margin: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.light-mode {
+  background-color: hsl(227, 47%, 96%);
 }
 
 .site-icon {
@@ -25,13 +29,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   width: 85px
 }
 
 .handle-text {
   font-size: .9em;
   color: hsl(228, 34%, 66%);
+}
+.handle-text.light-mode {
+  color: hsl(228, 12%, 44%);
 }
 
 .num-followers-container {
@@ -41,19 +47,13 @@
 }
 
 .followers-number {
-  color: white;
   font-size: 2.5rem;
   font-weight: bold;
-}
-
-.followers-static-text {
-  color: hsl(228, 34%, 66%);
 }
 
 .change-in-followers-container {
   font-family: inter; /*TODO: make this work*/
   font-size: .75em;
-
 }
 
 .red {

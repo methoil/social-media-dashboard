@@ -6,8 +6,8 @@ import './toggle-mode.css';
 
 export default function toggleMode(props) {
   return (
-    <div className='toggle-mode-switch' onClick={props.toggleMode}>
-      <span className={`toggle-mode-circle ${getPosition()}`}></span>
+    <div className={`toggle-mode-switch ${props.mode}-mode`} onClick={props.toggleMode}>
+      <span className={`toggle-mode-circle ${getPosition()} ${props.mode}-mode`}></span>
     </div>
   )
 

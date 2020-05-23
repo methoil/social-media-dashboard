@@ -12,25 +12,25 @@ export default function SocialMediaDashboard() {
 
   return (
     <div className={`main-container ${mode}-mode`}>
-      <div className="dark-mode-title">Social Media Dashboard</div>
-      <div className="dark-mode-text-color">Total Followers: 23,004</div>
+      <div className={`title ${mode}-mode-text-2`}>Social Media Dashboard</div>
+      <div className={`${mode}-mode-text`}>Total Followers: 23,004</div>
       <div className="horizontal-line"></div>
 
-      <div className="dark-mode-container">
-        <span className="dark-mode-text-color">Dark Mode</span>
+      <div className="toggle-mode-container">
+        <span className={`mode-label ${mode}-mode-text`}>{mode} Mode</span>
         <ToggleMode mode={mode} toggleMode={toggleMode} ></ToggleMode>
       </div>
 
       {data.largeTiles.map(tile => {
-        return <LargeTile name={tile.name} site={tile.site} total={tile.total} change={tile.change}></LargeTile>
+        return <LargeTile name={tile.name} site={tile.site} total={tile.total} change={tile.change} mode={mode}></LargeTile>
       })}
 
-      <div className="dark-mode-title">Overview - Today</div>
+      <div className={`title ${mode}-mode-text-2`}>Overview - Today</div>
 
       {data.smallTiles.map((tile) => {
         return (<span>
-          <SmallTile site={tile.site} meta={tile.actions} ></SmallTile>
-          <SmallTile site={tile.site} meta={tile.likes} ></SmallTile>
+          <SmallTile site={tile.site} meta={tile.actions} mode={mode} ></SmallTile>
+          <SmallTile site={tile.site} meta={tile.likes} mode={mode} ></SmallTile>
         </span>)
       })}
     </div>
