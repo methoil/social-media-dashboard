@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
-import { App } from "./app.jsx";
+import SocialMediaDashboard from "./app.jsx";
 import './main.css';
 
 ReactDOM.render(
-  <App />,
+  <SocialMediaDashboard />,
   document.getElementById("root")
 );

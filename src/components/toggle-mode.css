@@ -1,0 +1,30 @@
+.toggle-mode-switch {
+  height: 25px;
+  width: 45px;
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+  vertical-align: center;
+  float: right;
+  background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+.toggle-mode-circle {
+  position: absolute;
+  border-radius: 25px;
+  height: 18px;
+  width: 18px;
+  bottom: 4px;
+  background-color: white;
+}
+
+.toggle-mode-circle.left {
+  left: 4px;
+}
+
+.toggle-mode-circle.right {
+  right: 4px;
+}
+
+
+

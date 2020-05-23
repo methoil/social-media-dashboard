@@ -1,7 +1,6 @@
 @import './main.css';
 
 body {
-  background-color: hsl(230, 17%, 14%);
   font-family: sans-serif;
 }
 
@@ -10,10 +9,11 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-.dark-mode-title {
-  font-size: 2rem;
-  color: white;
+.main-container.dark-mode{
+  background-color: hsl(0, 0%, 100%);
+}
+.main-container.light-mode{
+  background-color: hsl(230, 17%, 14%);
 
 }
 
@@ -23,15 +23,14 @@ body {
 }
 
 .dark-mode-container {
+  position: relative;
+  height: 25px;
   width: 95vw;
   margin: 25px;
 }
 
-.toggle-button {
-  display: inline-block;
-  width: 100px;
-  height: 25px;
-  border-radius: 15px;
-  background: linear-gradient(blue, green);
-  float: right;
+.dark-mode-title {
+  position: relative;
+  font-size: 2rem;
+  color: white;
 }

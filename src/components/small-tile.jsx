@@ -12,7 +12,7 @@ export default function smallTile(props) {
 
     <div className="small-tile-section">
       <div>
-        <img class="site-icon" src={`../social-media-dashboard/static/images/icon-${props.site}.svg`} />
+        <img className="site-icon" src={`../social-media-dashboard/static/images/icon-${props.site}.svg`} />
       </div>
       <div className={'change-in-followers-container ' + (props.meta.percent < 0 ? 'red' : 'green')}>
         {props.change >= 0 ? '/\\' : '\\/'} {props.meta.percent}%
