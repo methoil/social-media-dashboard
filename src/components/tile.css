@@ -6,7 +6,12 @@
   border-radius: 5px;
   margin: 10px 0 10px 0;
 }
-
+@media screen and (min-width: 900px) {
+  .tile {
+    width: 23vw;
+    margin: 10px 10px 10px 0;
+  }
+}
 .light-mode {
   background-color: hsl(227, 47%, 96%);
 }
@@ -65,7 +70,6 @@
 }
 
 /* small tile styles */
-
 
 .small-tile {
   height: 125px;

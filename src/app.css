@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: baseline;
   background-color: hsl(230, 17%, 14%);
-  padding: 15px;
+  padding: 1vh 2.5vw 1vh 2.5vw;
 }
 .main-container.light-mode {
   background-color: hsl(0, 0%, 100%);
@@ -21,11 +21,24 @@ body {
   width: 95vw;
   margin: 10px 0 10px 0;
 }
+@media screen and (min-width:900px) {
+  .horizontal-line {
+    display: none;
+  }
+}
 
 .toggle-mode-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   height: 25px;
   width: 95vw;
+}
+@media screen and (min-width:900px) {
+  .toggle-mode-container {
+    width: 15vw;
+  }
 }
 
 .title {
@@ -35,4 +48,20 @@ body {
 
 .mode-label {
   text-transform: capitalize;
+}
+
+@media screen and (min-width:900px) {
+  .top-components-container {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .tile-container {
+    display: flex;
+    flex-direction: row;
+  }
 }
